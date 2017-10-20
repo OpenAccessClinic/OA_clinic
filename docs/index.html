@@ -1,0 +1,25 @@
+---
+layout: page
+---
+
+{% for post in site.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}" >
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        {% if post.thumbnail %}
+        <br />
+            <img alt="" style="height:200px;" src="{{ post.thumbnail }}" />
+        {% endif %}
+    </a>
+	<!-- <div class="notepad-index-post-tags" style="">
+		{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+	</div> -->
+</div>
+<hr>
+{% endfor %}

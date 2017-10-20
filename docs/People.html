@@ -1,0 +1,15 @@
+---
+layout: page
+title: "People"
+description: "Meet the Open Research Code Advocates"
+header-img: "img/home-bg.jpg"
+---
+
+<div>
+
+<h1>Advocates for open source</h1> <a name="top"></a>
+{% for people in site.data.people %} {% if people.visible == true %}
+	{% include addPerson.html people=site.data.people %}
+{% endif %} {% endfor %}
+
+</div>
