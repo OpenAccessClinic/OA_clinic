@@ -1,0 +1,23 @@
+callback([
+
+  {
+    "text": "Step 1 Setup ORCID and ImpactStory",
+    "href": "http://localhost:4000/oa%20guide/2017/08/26/Step1/"
+  } ,
+
+  {
+    "text": "Step 2 Gather your works",
+    "href": "http://localhost:4000/oa%20guide/2017/08/25/Step2/"
+  } ,
+
+  {
+    "text": "Step 3 Identify frameworks to permanently host your work",
+    "href": "http://localhost:4000/oa%20guide/2017/08/24/Step3/"
+  } ,
+
+  {
+    "text": "Step 4 Upload your works",
+    "href": "http://localhost:4000/oa%20guide/2017/08/23/Step4/"
+  } 
+
+])
