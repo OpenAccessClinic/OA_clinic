@@ -5,7 +5,8 @@
   color: #FFFFFF;
 }
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Lora', 'Times New Roman', serif;*/
   font-size: 20px;
   color: #404040;
 }
@@ -27,7 +28,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   font-weight: 800;
 }
 a {
@@ -57,7 +59,8 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
@@ -168,18 +171,19 @@ hr.small {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   font-weight: 300;
   margin: 10px 0 0;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 40px;
   }
 }
 .intro-header .post-heading h1 {
-  font-size: 35px;
+  font-size: 20px;
 }
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
@@ -187,13 +191,15 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-size: 20px;
   margin: 10px 0 30px;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Lora', 'Times New Roman', serif;*/
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
@@ -325,7 +331,8 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -348,7 +355,8 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;

@@ -2,78 +2,95 @@
 layout: page
 ---
 
-<div >
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 
-    <h1>Open Acces Clinic</h1> <a name="top"></a>
-    <h5> <i> a brief guide to make your science 100% open access </i> </h5>
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    overflow: hidden;
+    border-color: black;
+    border-radius: 25px; /* 5px rounded corners */
+    background-color: white;
+    margin-bottom: 30px
+}
+.card-text {
+    word-wrap: break-word;
+}
 
-    <!-- Start list-->
-  	<ol>
-      <hr>
-  	  <h3> <li> <a href="#find">Help others find you and your work </a> </li> </h3>
-      <a href="#find">Help others find you and your work
-          <br/>
-          <img src="{{ site.baseurl }}/img/logos/ORCID_logo_with_tagline.svg" width="50%" alt="ORCID">
-      </a>
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+    z-index: 2;
+-webkit-transition: all 200ms ease-in;
+-webkit-transform: scale(1.2);
+-ms-transition: all 200ms ease-in;
+-ms-transform: scale(1.2);
+-moz-transition: all 200ms ease-in;
+-moz-transform: scale(1.2);
+transition: all 200ms ease-in;
+transform: scale(1.2);
+}
 
-      <hr>
-  		<h3> <li> <a href="#check">Check your rights</a> </li> </h3>
-      <a href="#check">Can I upload pre-prints for all my journal articles?
-          <br/>
-          <img src="{{ site.baseurl }}/img/sherpaRomeo.png" width="75%" alt="sherpaRomeo">
-      </a>
-
-      <hr>
-  		<h3> <li> <a href="#repos">Upload your work</a> </li> </h3>
-      <a href="#repos">Where and how to upload all those files?
-          <br/>
-          <img src="{{ site.baseurl }}/img/logos/zenodo-gradient-2500.png" width="25%" alt="ZENODO">
-          <img src="{{ site.baseurl }}/img/logos/cos_stack.png" width="25%" alt="OSF">
-          <img src="{{ site.baseurl }}/img/logos/ArXiv_web.svg" width="25%" alt="ArXiv">
-      </a>
-
-      <hr>
-  		<h3> <li> <a href="#spread">Get recognition for your open access efforts</a> </li> </h3>
-      <a href="#check">Show off your new open access super hero status! Spread the word, help your colleagues
-          <br/>
-          <img src="{{ site.baseurl }}/img/impactStoryScreenShot.png" alt="ImpactStory">
-      </a>
-
-  	</ol>
-
-    <!-- Expanded list-->
-    <hr>
-    <p>
-      <h3>1) Help others find you and your work</h3> <a name="find"></a>
-      <div align="right" <i style="font-size:75%; color:#3366CC;"> <u> <a href="#top">Back top</a> </u> </i> </div>
+.container {
+    padding: 2px 16px;
+}
 
 
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+}
 
-    <hr>
-    <p>
-      <h3>2) Check your rights</h3> <a name="check"></a>
-      <div align="right" <i style="font-size:75%; color:#3366CC;"> <u> <a href="#top">Back top</a> </u> </i> </div>
+</style>
+</head>
 
-    </p>
+<body>
 
-    <hr>
-    <p>
-      <h3>3) Upload your works</h3> <a name="repos"></a>
-      <div align="right" <i style="font-size:75%; color:#3366CC;"> <u> <a href="#top">Back top</a> </u> </i> </div>
+<div class="row">
 
-    </p>
+  <div class="col-sm-3">
+    <!-- <a href="About.md"> -->
+    <div class="card" align="left">
+      <h3>1) Help others find you and your work</h3>
+      <img src="{{ site.baseurl }}/img/ORCID_logo.jpg" width="100%" alt="ORCID">
+        <p>Help others find you and your work</p>
+    </div>
+    <!-- </a> -->
+  </div>
 
-    <hr>
-    <p>
-      <h3>4) Get recognition for your open access efforts</h3> <a name="spread"></a>
-      <div align="right" <i style="font-size:75%; color:#3366CC;"> <u> <a href="#top">Back top</a> </u> </i> </div>
+  <div class="col-sm-3">
+    <div class="card" align="left">
+      <h3>2) Check your rights</h3>
+      <img src="{{ site.baseurl }}/img/sherpa_logo.png" width="100%" alt="sherpaRomeo">
+        <p>Check your rights</p>
+    </div>
+  </div>
 
-    </p>
+  <div class="col-sm-3">
+    <div class="card" align="left">
+      <h3>3) Upload your work</h3>
+      <img src="{{ site.baseurl }}/img/logos/zenodo-gradient-2500.png" width="100%" alt="ZENODO">
+        <p>Where and how to upload all those files?</p>
+    </div>
+  </div>
+
+    <div class="col-sm-3">
+      <div class="card" align="left">
+        <h3>4) Get recognition for your open science efforts</h3>
+        <img src="{{ site.baseurl }}/img/impactStoryScreenShot.png" width="100%" alt="ImpactStory">
+          <p>Show off your new open access super hero status! Spread the word, help your colleagues</p>
+      </div>
+    </div>
 
 </div>
+
 <hr>
 
-<!-- {% for post in site.posts %}
+<!--
+{% for post in site.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}" >
         <h2 class="post-title">            {{ post.title }}
