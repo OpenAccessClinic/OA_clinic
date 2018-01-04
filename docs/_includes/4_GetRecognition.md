@@ -1,53 +1,4 @@
----
-layout: page
-title: "4. Get recognition"
-logo: "img/home-bg.jpg"
-description: "Get recognition for your open access works"
-header-img: "img/home-bg.jpg"
----
-
-<div class="row">
-
-  <div class="col-sm-3">
-    <a href="{{ site.baseurl }}/1_FindYourWork">
-    <div  align="center">
-      1) Find your work
-      <img src="{{ site.baseurl }}/img/icons/find.png" width="60%" alt="Find" style="background-color:white;">
-    </div>
-    </a>
-  </div>
-
-  <div class="col-sm-3">
-    <a href="{{ site.baseurl }}/2_CheckYourRights">
-    <div  align="center">
-      2) Check your rights
-      <img src="{{ site.baseurl }}/img/icons/rights.png" width="60%" alt="Rights" style="background-color:white;">
-    </div>
-  </a>
-  </div>
-
-  <div class="col-sm-3">
-    <a href="{{ site.baseurl }}/3_UploadYourWork">
-    <div  align="center">
-      3) Upload your work
-      <img src="{{ site.baseurl }}/img/icons/upload.png" width="60%" alt="Upload" style="background-color:white;">
-    </div>
-  </a>
-  </div>
-
-    <div class="col-sm-3">
-      <a href="{{ site.baseurl }}/4_GetRecognition">
-      <div  align="center">
-        4) Get recognition
-        <img src="{{ site.baseurl }}/img/icons/award.png" width="60%" alt="Recognition" style="background-color:grey;">
-      </div>
-    </a>
-    </div>
-
-</div>
----   
-
-# 4) Get recognition, be discovered, and get rewarded for your open access efforts.
+# <img src="{{ site.baseurl }}/img/icons/award.png" width="10%" alt="award"> 4) Get recognition, be discovered, and get rewarded for your open access efforts.
 Now that you've shared all your content it would be good to announce your efforts to the rest of the world. Post links to the openly available works on social media and on your personal and institutional websites where possible. However, it is also possible to create a list, similar to the list of your ORCID profile, providing links to all your shared works. One system that allows for this is [ImpactStory](http://impactstory.org/) (click on impactStory profiles on that page).
 
 ## ImpactStory
@@ -73,12 +24,3 @@ You can also embed the list in your own website. For instance you can incorporat
     <iframe   src="https://profiles.impactstory.org/u/0000-0003-3768-4269/publications" width="100%" height="1000" frameborder="0" style="border:0" allowfullscreen>
     </iframe>
 ```
-
-<div align="left">
-<a href="{{ site.baseurl }}/3_UploadYourWork">
-  <img src="{{ site.baseurl }}/img/icons/Previous_Arrow.png" width="3%" alt="Find">
-  Previous
-</a>
-</div>
-
-<br>

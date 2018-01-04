@@ -1,54 +1,4 @@
----
-layout: page
-title: "1. Find your work"
-logo: "img/home-bg.jpg"
-description: "Collect and make a list of your works"
-header-img: "img/home-bg.jpg"
----
-
-<div class="row">
-
-  <div class="col-sm-3">
-    <a href="{{ site.baseurl }}/1_FindYourWork">
-    <div  align="center">
-      1) Find your work
-      <img src="{{ site.baseurl }}/img/icons/find.png" width="60%" alt="Find" style="background-color:grey;">
-    </div>
-    </a>
-  </div>
-
-  <div class="col-sm-3">
-    <a href="{{ site.baseurl }}/2_CheckYourRights">
-    <div  align="center">
-      2) Check your rights
-      <img src="{{ site.baseurl }}/img/icons/rights.png" width="60%" alt="Rights" style="background-color:white;">
-    </div>
-  </a>
-  </div>
-
-  <div class="col-sm-3">
-    <a href="{{ site.baseurl }}/3_UploadYourWork">
-    <div  align="center">
-      3) Upload your work
-      <img src="{{ site.baseurl }}/img/icons/upload.png" width="60%" alt="Upload" style="background-color:white;">
-    </div>
-  </a>
-  </div>
-
-    <div class="col-sm-3">
-      <a href="{{ site.baseurl }}/4_GetRecognition">
-      <div  align="center">
-        4) Get recognition
-        <img src="{{ site.baseurl }}/img/icons/award.png" width="60%" alt="Recognition" style="background-color:white;">
-      </div>
-    </a>
-    </div>
-
-</div>
-
----
-
-# 1) Find your work
+# <img src="{{ site.baseurl }}/img/icons/find.png" width="10%" alt="Find"> 1) Find your work
 The first step in making your works openly available is to create a list of all your scholarly works. This way you can step through all your works and find ways to make each openly available. Your scholarly works may include articles, abstracts, figures, posters, and also data sets, software and hardware designs. You could create your list manually, however, here we recommend the use of [ORCID](https://orcid.org/).    
 Done with your list? Already have an up to date ORCID profile? Great, let's move on to the [next step]({{ site.baseurl }}/2_CheckYourRights).
 
@@ -72,20 +22,3 @@ The code for this link looks like:
 ```   
 2. You can also use ORCID to create a scannable QR-code for your profile which is handy for display on posters and business cards:   
 <a href="https://orcid.org/0000-0003-3768-4269"> <img src="{{ site.baseurl }}/img/my_orcid_qrcode.png" width="25%" alt="Find"> </a>
-
-
-<div class="col-sm-6">
-<div align="left">
-
-</div>
-</div>
-
-<div class="col-sm-6">
-<div align="right">
-<a href="{{ site.baseurl }}/2_CheckYourRights">
-  Next
-  <img src="{{ site.baseurl }}/img/icons/Next_Arrow.png" width="5%" alt="Find">
-</a>
-</div>
-</div>
-<br>

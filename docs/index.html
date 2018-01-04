@@ -48,63 +48,46 @@ img {
 </head>
 
 <body>
-
+<a name="top"></a>
 <div class="row">
 
   <div class="col-sm-3">
-    <a href="1_FindYourWork">
+    <a href="#find">
     <div class="card" align="center">
       <h4>1) Find your work</h4>
-      <img src="{{ site.baseurl }}/img/icons/find.png" width="60%" alt="Find">
+      <img src="{{ site.baseurl }}/img/icons/find.png" width="30%" alt="Find">
     </div>
     </a>
   </div>
 
   <div class="col-sm-3">
-    <a href="2_CheckYourRights">
+    <a href="#rights">
     <div class="card" align="center">
       <h4>2) Check your rights</h4>
-      <img src="{{ site.baseurl }}/img/icons/rights.png" width="60%" alt="Rights">
+      <img src="{{ site.baseurl }}/img/icons/rights.png" width="30%" alt="Rights">
     </div>
   </a>
   </div>
 
   <div class="col-sm-3">
-    <a href="3_UploadYourWork">
+    <a href="#upload">
     <div class="card" align="center">
       <h4>3) Upload your work</h4>
-      <img src="{{ site.baseurl }}/img/icons/upload.png" width="60%" alt="Upload">
+      <img src="{{ site.baseurl }}/img/icons/upload.png" width="30%" alt="Upload">
     </div>
   </a>
   </div>
 
     <div class="col-sm-3">
-      <a href="4_GetRecognition">
+      <a href="#award">
       <div class="card" align="center">
         <h4>4) Get recognition</h4>
-        <img src="{{ site.baseurl }}/img/icons/award.png" width="60%" alt="Recognition">
+        <img src="{{ site.baseurl }}/img/icons/award.png" width="30%" alt="Recognition">
       </div>
     </a>
     </div>
 
 </div>
 
-<!--
-{% for post in site.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}" >
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h4 class="post-subtitle">
-            {{ post.subtitle }}
-        </h4>
-        {% endif %}
-        {% if post.thumbnail %}
-        <br />
-            <img alt="" style="height:200px;" src="{{ post.thumbnail }}" />
-        {% endif %}
-    </a>
-</div>
-<hr>
-{% endfor %} -->
+{% capture my_include %}{% include content.md %}{% endcapture %}
+{{ my_include | markdownify }}
