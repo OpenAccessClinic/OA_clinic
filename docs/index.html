@@ -49,45 +49,50 @@ img {
 
 <body>
 <a name="top"></a>
-<div class="row">
 
-  <div class="col-sm-3">
-    <a href="#find">
-    <div class="card" align="center">
-      <h4>1) Find your work</h4>
-      <img src="{{ site.baseurl }}/img/icons/find.png" width="30%" alt="Find">
-    </div>
+<table style="width:100%">
+  <tr>
+    <td style="width: 20%;">
+      <img src="{{ site.baseurl }}/img/OA_clinic_kit.png" width="100%" alt="OA first aid kit">
+    </td>
+
+    <td style="width: 20%;">
+      <a href="#find">
+      <div class="card" align="center">
+        <h4>1) Find your work</h4>
+        <img src="{{ site.baseurl }}/img/icons/find.png" width="30%" alt="Find">
+      </div>
+      </a>
+    </td>
+
+    <td style="width: 20%;">
+      <a href="#rights">
+      <div class="card" align="center">
+        <h4>2) Check your rights</h4>
+        <img src="{{ site.baseurl }}/img/icons/rights.png" width="30%" alt="Rights">
+      </div>
     </a>
-  </div>
+    </td>
 
-  <div class="col-sm-3">
-    <a href="#rights">
-    <div class="card" align="center">
-      <h4>2) Check your rights</h4>
-      <img src="{{ site.baseurl }}/img/icons/rights.png" width="30%" alt="Rights">
-    </div>
-  </a>
-  </div>
+    <td style="width: 20%;">
+      <a href="#upload">
+      <div class="card" align="center">
+        <h4>3) Upload your work</h4>
+        <img src="{{ site.baseurl }}/img/icons/upload.png" width="30%" alt="Upload">
+      </div>
+      </a>
+    </td>
 
-  <div class="col-sm-3">
-    <a href="#upload">
-    <div class="card" align="center">
-      <h4>3) Upload your work</h4>
-      <img src="{{ site.baseurl }}/img/icons/upload.png" width="30%" alt="Upload">
-    </div>
-  </a>
-  </div>
-
-    <div class="col-sm-3">
+    <td style="width: 20%;">
       <a href="#award">
       <div class="card" align="center">
         <h4>4) Get recognition</h4>
         <img src="{{ site.baseurl }}/img/icons/award.png" width="30%" alt="Recognition">
       </div>
-    </a>
-    </div>
-
-</div>
+      </a>
+    </td>
+  </tr>
+</table>
 
 {% capture my_include %}{% include content.md %}{% endcapture %}
 {{ my_include | markdownify }}
