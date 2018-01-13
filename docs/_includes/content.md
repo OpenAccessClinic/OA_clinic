@@ -3,7 +3,7 @@
 
 {% include line.html %}
 
-##  <img src="{{ site.baseurl }}/img/icons/find.png" width="20%" alt="Find">  <a name="find"></a> 1) Find your work
+##  <img src="{{ site.baseurl }}/img/icons/find.png" width="15%" alt="Find">  <a name="find"></a> 1) Find your work
 The first step in making your works openly available is to create a list of all your scholarly works. This way you can step through all your works and find ways to make each openly available. Your scholarly works may include articles, abstracts, figures, posters, and also data sets, software and hardware designs. You could create your list manually, however, here we recommend the use of [ORCID](https://orcid.org/).    
 Done with your list? Already have an up to date ORCID profile? Great, let's move on to the [next step](#rights).
 
@@ -32,7 +32,7 @@ The code for this link looks like:
 
 {% include line.html %}
 
-## <img src="{{ site.baseurl }}/img/icons/rights.png" width="20%" alt="rights"> <a name="rights"></a> 2) Check your permissions and rights
+## <img src="{{ site.baseurl }}/img/icons/rights.png" width="15%" alt="rights"> <a name="rights"></a> 2) Check your permissions and rights
 [*DISCLAIMER*](#disclaimer)   
 
 Before attempting to make your work open access you may wish to:
@@ -65,7 +65,7 @@ Some institutes have an over arching open-access license. In some cases these au
 
 {% include line.html %}
 
-## <img src="{{ site.baseurl }}/img/icons/upload.png" width="20%" alt="upload"> <a name="upload"></a> 3) Upload your work  
+## <img src="{{ site.baseurl }}/img/icons/upload.png" width="15%" alt="upload"> <a name="upload"></a> 3) Upload your work  
 1. Gather your works
 2. Find suitable repositories
 3. Upload your works   
@@ -89,7 +89,7 @@ Repositories like [Zenodo](https://zenodo.org/) can house any type of content, o
 
 {% include line.html %}
 
-## <img src="{{ site.baseurl }}/img/icons/award.png" width="20%" alt="award"> <a name="award"></a> 4) Get recognition, be discovered.  
+## <img src="{{ site.baseurl }}/img/icons/award.png" width="15%" alt="award"> <a name="award"></a> 4) Get recognition, be discovered.  
 Now that you've shared all your content it would be good to announce your efforts to the rest of the world. Post links to the openly available works on social media and on your personal and institutional websites where possible. However, it is also possible to create a list, similar to the list of your ORCID profile, providing links to all your shared works. One system that allows for this is [ImpactStory](http://impactstory.org/) (click on impactStory profiles on that page).
 
 ### ImpactStory
@@ -100,7 +100,9 @@ In short ImpactStory allows you to:
 2. Add the open access link for others to obtain access to each item in the list
 3. Keep track of altmetrics (e.g. social media shares) associated with your works
 
----   
+---    
+
+### Tip:
 
 1. As you add open access links to all your works ImpactStory lists the percentage of your works that are now open access and provides a badge to accompany your open access efforts. Once you have made 100% of your work open access you join the ranks of open access heroes:    
 <a href="http://impactstory.org/"> <img src="{{ site.baseurl }}/img/impactStoryScreenShot.png" width="30%" alt="ImpactStory"> </a>
