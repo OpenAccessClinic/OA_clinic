@@ -51,10 +51,10 @@ Depending on the journal you may or may not be able to share the [pre-print](htt
 <a href="http://sherpa.ac.uk/romeo/index.php"> <img src="{{ site.baseurl }}/img/sherpa_logo.png" width="30%" alt="Sherpa Romeo"> </a>
 
 For instance searching for _"Journal of Biomechanics"_ provides us with:   
-<img src="{{ site.baseurl }}/img/jbiomechRights.png" width="100%" alt="Rights">    
+<img src="{{ site.baseurl }}/img/jbiomechRights.png" width="50%" alt="Rights">    
 
 While searching for _"Journal of Biomechanical Engineering"_ provides us with:   
-<img src="{{ site.baseurl }}/img/jBiomechEngRights.png" width="100%" alt="Rights">      
+<img src="{{ site.baseurl }}/img/jBiomechEngRights.png" width="50%" alt="Rights">      
 
 Therefore, using this system you can quickly get an idea of the rights for a particular journal. However, this may not be the complete story as the institute you work for might have its own policies or licenses in place to help enable open access sharing. Consult your legal department or a librarian for more information.
 

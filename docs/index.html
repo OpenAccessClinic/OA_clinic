@@ -11,6 +11,7 @@ layout: page
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
+    height: 200px;
 
     overflow: hidden;
     border-style: solid;
@@ -49,12 +50,62 @@ img {
 
 .img-responsive {
   max-height: 120px;
+  min-width: 50px;
 }
 
 </style>
 </head>
 
 <body>
+<a name="top"></a>
+
+<table>
+  <tr>
+    <th>
+      <img src="{{ site.baseurl }}/img/OA_clinic_kit.png" class="img-responsive" alt="OA first aid kit">
+    </th>
+
+    <th>
+      <a href="#find">
+        <div class="card" align="center">
+          <small><b>1) Find your work</b></small> </br>
+          <img src="{{ site.baseurl }}/img/icons/find.png" class="img-responsive" alt="Find">
+        </div>
+      </a>
+    </th>
+
+    <th>
+      <a href="#rights">
+        <div class="card" align="center">
+          <small><b>2) Check your rights</b></small> </br>
+          <img src="{{ site.baseurl }}/img/icons/rights.png" class="img-responsive" alt="Rights">
+        </div>
+      </a>
+    </th>
+
+    <th>
+      <a href="#upload">
+        <div class="card" align="center">
+          <small><b>3) Upload your work</b></small> </br>
+          <img src="{{ site.baseurl }}/img/icons/upload.png" class="img-responsive" alt="Upload">
+        </div>
+      </a>
+    </th>
+
+    <th>
+      <a href="#award">
+        <div class="card" align="center">
+          <small><b>4) Get recognition</b></small> </br>
+          <img src="{{ site.baseurl }}/img/icons/award.png" class="img-responsive" alt="Recognition">
+        </div>
+      </a>
+    </th>
+
+  </tr>
+</table>
+
+
+<!-- <body>
 <a name="top"></a>
 
 <div class="row"  align="center">
@@ -99,7 +150,7 @@ img {
     </a>
     </div>
 
-</div>
+</div> -->
 
 {% capture my_include %}{% include content.md %}{% endcapture %}
 {{ my_include | markdownify }}
