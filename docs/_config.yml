@@ -15,7 +15,7 @@ logo: "img/logos/OAclinic.png"
 #twitter_username: KMMoerman
 
 # Build settings
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
