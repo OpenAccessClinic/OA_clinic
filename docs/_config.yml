@@ -4,7 +4,7 @@ description: "A guide to make your science 100% open access"
 url: "https://openaccessclinic.github.io"
 
 # Secondary Parameters
-baseurl: "OA_clinic"
+baseurl: "/OA_clinic"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: "img/logos/OAclinic.png"
